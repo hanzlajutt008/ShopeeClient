@@ -5,8 +5,6 @@ const envVars = require('./config/env-vars');
 
 const app = express();
 
-console.log(envVars);
-
 app.listen(
   envVars.port,
   console.log(`Listening on port ${envVars.port} on environment ${envVars.environment}`)
